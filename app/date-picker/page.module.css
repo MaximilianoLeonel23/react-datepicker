@@ -1,0 +1,24 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 1rem;
+	gap: 2rem;
+}
+
+.consultSelector {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.day {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.scheduleEditor {
+	display: flex;
+	align-items: start;
+	column-gap: 2rem;
+}
